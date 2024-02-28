@@ -18,7 +18,7 @@ The system was developed using Java programming language with a focus on creatin
 ## Installation Instructions
 To install and run the Students’ Course Management System, follow these steps:
 
-1. **Download and Install Eclipse IDE:** Download the Eclipse IDE for Java Developers 2020-06 from the official website.
+1. **Download and Install Eclipse IDE:** Download the Eclipse IDE for Java Developers from the official website.
 Follow the installation instructions provided on the website or included in the downloaded package.
 Install WindowBuilder Plugin:
 
