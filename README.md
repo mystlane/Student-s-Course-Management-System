@@ -44,7 +44,8 @@ If not, download the MySQL connector JAR and add it to the project's build path.
 6. **Database Setup:**
 Access phpMyAdmin through your web browser (typically http://localhost/phpmyadmin).
 Create a new database for the Students’ Course Management System.
-Overview of the two tables you've created in MySQL:
+
+<br><br>**Overview of the two tables you've created in MySQL:**<br><br>
 
 **Course Table (course):**
 **Columns:**
