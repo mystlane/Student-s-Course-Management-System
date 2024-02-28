@@ -54,6 +54,7 @@ Create a new database for the Students’ Course Management System.
  - Instructor:  Name of the instructor teaching the course.
  - Room:  - Room where the course is conducted.
   - Primary Key: Code<br><br>
+  
 **Student Information Table (studentinfo):**<br>
 **Columns:**
  - Username:Unique identifier for the student.
