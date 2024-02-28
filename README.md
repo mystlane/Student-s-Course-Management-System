@@ -18,53 +18,53 @@ The system was developed using Java programming language with a focus on creatin
 ## Installation Instructions
 To install and run the Students’ Course Management System, follow these steps:
 
-1. Download and Install Eclipse IDE: Download the Eclipse IDE for Java Developers 2020-06 from the official website.
+1. **Download and Install Eclipse IDE:** Download the Eclipse IDE for Java Developers 2020-06 from the official website.
 Follow the installation instructions provided on the website or included in the downloaded package.
 Install WindowBuilder Plugin:
 
-2. Launch Eclipse IDE.
+2. **Launch Eclipse IDE.**
 Navigate to Help > Eclipse Marketplace.
 Search for "WindowBuilder" and install the plugin.
 Follow any additional prompts to complete the installation.
 
 
-3. Download and Configure XAMPP:
+3. **Download and Configure XAMPP:**
 Download XAMPP from the official website and follow the installation instructions.
 Start the Apache and MySQL services using the XAMPP Control Panel.
 
 
-4.Import Project: Download the Students’ Course Management System project files.
+4. **Import Project:** Download the Students’ Course Management System project files.
 Open Eclipse IDE and import the project into your workspace.
 
-5.Configure JDBC:
+5. **Configure JDBC:**
 Ensure that the MySQL connector JAR is included in the project's classpath.
 If not, download the MySQL connector JAR and add it to the project's build path.
 
 
-6.Database Setup:
+6. **Database Setup:**
 Access phpMyAdmin through your web browser (typically http://localhost/phpmyadmin).
 Create a new database for the Students’ Course Management System.
 Overview of the two tables you've created in MySQL:
 
 **Course Table (course):**
 **Columns:**
-Code:  Unique identifier for the course.
-Name: Name of the course.
-Instructor:  Name of the instructor teaching the course.
-Room:  - Room where the course is conducted.
-Primary Key: Code
+ - Code:  Unique identifier for the course.
+ - Name: Name of the course.
+ - Instructor:  Name of the instructor teaching the course.
+ - Room:  - Room where the course is conducted.
+  - Primary Key: Code
 **Student Information Table (studentinfo):**
 **Columns:**
-Username:Unique identifier for the student.
-Password: Password for the student's account (please note that storing passwords as plain text is not recommended for security reasons; consider using encryption or hashing).
-LastName:  Last name of the student.
-FirstName:  First name of the student.
-MiddleName: Middle name of the student.
-YearLevel: Year level of the student.
-Program: Program in which the student is enrolled.
-Primary Key: Username
+ - Username:Unique identifier for the student.
+ - Password: Password for the student's account (please note that storing passwords as plain text is not recommended for security reasons; consider using encryption or hashing).
+ - LastName:  Last name of the student.
+ - FirstName:  First name of the student.
+ - MiddleName: Middle name of the student.
+ - YearLevel: Year level of the student.
+ - Program: Program in which the student is enrolled.
+  - Primary Key: Username
 
-7. Run the Application: Build the project in Eclipse IDE. 
+7. **Run the Application:** Build the project in Eclipse IDE. 
 Run the main Java file to start the application.
 
 ##Usage
