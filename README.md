@@ -4,13 +4,13 @@
 The Students’ Course Management System is designed to facilitate the efficient management and organization of courses for students. It provides functionalities for adding, deleting, viewing, and updating course information. Additionally, the system stores student data in a database, accessible to authorized personnel such as instructors or administrators. This project is open-source.
 
 ## Technologies Used
-Programming Language: Java
-Integrated Development Environment (IDE): Eclipse IDE for Java Developers 2020-06
-Graphical User Interface (GUI): Eclipse WindowBuilder
-Database Connectivity: JDBC (Java Database Connectivity)
-Database Management System (DBMS): MySQL
-Web-based Database Administration: phpMyAdmin
-Local Server Environment: XAMPP
+ - Programming Language: Java
+ - Integrated Development Environment (IDE): Eclipse IDE for Java Developers 2020-06
+ - Graphical User Interface (GUI): Eclipse WindowBuilder
+ - Database Connectivity: JDBC (Java Database Connectivity)
+ - Database Management System (DBMS): MySQL
+ - Web-based Database Administration: phpMyAdmin
+ - Local Server Environment: XAMPP
 
 ## Development Process
 The system was developed using Java programming language with a focus on creating a user-friendly GUI for enhanced efficiency. Eclipse IDE, equipped with WindowBuilder, facilitated rapid development by simplifying the GUI design process. JDBC was utilized for database connectivity, with MySQL serving as the backend database managed via phpMyAdmin. XAMPP was employed to set up a local server environment for development purposes.
@@ -63,10 +63,10 @@ Create a new database for the Students’ Course Management System.
  - MiddleName: Middle name of the student.
  - YearLevel: Year level of the student.
  - Program: Program in which the student is enrolled.
-  - Primary Key: Username
+  - Primary Key: Username<br>
 
 7. **Run the Application:** Build the project in Eclipse IDE. 
 Run the main Java file to start the application.
 
-##Usage
+## Usage
 Feel free to download and modify the code for your own purposes, whether it's for a class project, practicing Java programming, or any other educational endeavor. We encourage sharing within the community. Happy Coding!
