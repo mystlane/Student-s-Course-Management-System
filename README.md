@@ -47,14 +47,14 @@ Create a new database for the Students’ Course Management System.
 
 <br><br>**Overview of the two tables you've created in MySQL:**<br><br>
 
-**Course Table (course):**
+**Course Table (course):**<br>
 **Columns:**
  - Code:  Unique identifier for the course.
  - Name: Name of the course.
  - Instructor:  Name of the instructor teaching the course.
  - Room:  - Room where the course is conducted.
-  - Primary Key: Code
-**Student Information Table (studentinfo):**
+  - Primary Key: Code<br>
+**Student Information Table (studentinfo):**<br>
 **Columns:**
  - Username:Unique identifier for the student.
  - Password: Password for the student's account (please note that storing passwords as plain text is not recommended for security reasons; consider using encryption or hashing).
